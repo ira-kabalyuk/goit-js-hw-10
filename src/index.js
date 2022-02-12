@@ -26,7 +26,6 @@ function renderCountryCard(country) {
 function onSearchCountry(event) {
   const value = event.target.value;
   const inputValue = value.trim();
-  console.log(inputValue);
   if (!inputValue) {
     return container.innerHTML = '';
   };
