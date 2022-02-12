@@ -1,0 +1,51 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.country-list {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-gap: 1rem;
+  margin: 1.5rem 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flag {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.country-info {
+  &__img {
+    border: 1px solid #000;
+    width: 160px;
+    height: 90px;
+  }
+
+  &__title {
+    margin-top: 0;
+  }
+}
+
+.country-item {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+  justify-content: start;
+
+  &__img {
+    border: 1px solid #000;
+    width: 3rem;
+    height: 1.68rem;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 1rem;
+  }
+}
